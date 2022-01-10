@@ -1,0 +1,30 @@
+body{
+    background-color: grey;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border: 1px solid blue;
+}
+
+#library{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#library > div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    border-radius: 10px;
+}
