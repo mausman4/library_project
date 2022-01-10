@@ -102,9 +102,13 @@ function display_library(){
 
 let book1 = new new_book("Title", 100, "Sci-Fi", "First_name", "Last_name", 2021, generic_img);
 let book2 = new new_book("Clean Code", 200, "software", "Robert", "Martin", 2014, img_path + "clean_code.jpg");
-addBookToLibrary(book2);
-addBookToLibrary(book1);
 
-display_library();
+addBookToLibrary(book2);
+addBookToLibrary(book2);
+addBookToLibrary(book2);
+addBookToLibrary(book2);
+
+
+//display_library();
 
 

@@ -1,6 +1,12 @@
 body{
     background-color: grey;
+    margin: 0;
 }
+
+.hero-image {
+    background-image: url("images/minecraft_bookshelf.png");
+    height: 400px;;
+  }
 
 img{
     width: 200px;
@@ -10,13 +16,11 @@ img{
 
 #library{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
 }
 
 #library > div{
-    flex: 1;
+    flex: 1 0 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,6 +29,6 @@ img{
 .book{
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    border: 1px solid black;
     border-radius: 10px;
 }
